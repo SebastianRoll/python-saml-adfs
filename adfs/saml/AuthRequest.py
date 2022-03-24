@@ -91,7 +91,7 @@ def create(
 
     authn_context_class_ref = saml_maker.AuthnContextClassRef()
     authn_context_class_ref.text = ('urn:oasis:names:tc:SAML:2.0:ac:classes:'
-                                    + 'PasswordProtectedTransport'
+                                    + 'unspecified'
                                     )
     request_authn_context.append(authn_context_class_ref)
 
